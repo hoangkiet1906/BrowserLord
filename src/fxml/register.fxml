@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RegisterController">
+   <bottom>
+        <AnchorPane prefHeight="500.0" prefWidth="304.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+            <children>
+                <TextField layoutX="137.0" layoutY="186.0" prefHeight="38.0" prefWidth="248.0" promptText="Username" style="-fx-border-radius: 50; -fx-background-radius: 50;" AnchorPane.bottomAnchor="276.0" />
+                <PasswordField layoutX="137.0" layoutY="301.0" prefHeight="38.0" prefWidth="248.0" promptText="Confirm Password" style="-fx-background-radius: 50; -fx-border-radius: 50;" AnchorPane.bottomAnchor="161.0" />
+                <Button layoutX="137.0" layoutY="411.0" mnemonicParsing="false" onAction="#onClose" prefHeight="38.0" prefWidth="248.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-background-color: #3c376b;" text="Close" textFill="WHITE" AnchorPane.bottomAnchor="49.666666666666686">
+                    <font>
+                                            <Font name="System Bold" size="18.0" />
+                    </font></Button>
+                <Button layoutX="137.0" layoutY="365.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="248.0" style="-fx-background-radius: 50; -fx-background-color: #3c376b; -fx-border-radius: 50;" text="Register" textFill="WHITE">
+                    <font>
+                                            <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+                <Label layoutX="178.0" layoutY="53.0" style="-fx-background-color: white;" text="REGISTER" textFill="#3c376be3">
+                    <font>
+                                            <Font name="System Bold" size="36.0" />
+                    </font>
+                </Label>
+            <TextField layoutX="137.0" layoutY="129.0" prefHeight="38.0" prefWidth="248.0" promptText="Full name" style="-fx-border-radius: 50; -fx-background-radius: 50;" />
+            <TextField layoutX="137.0" layoutY="244.0" prefHeight="38.0" prefWidth="248.0" promptText="Password" style="-fx-border-radius: 50; -fx-background-radius: 50;" />
+            </children>
+        </AnchorPane>
+   </bottom>
+</BorderPane>
